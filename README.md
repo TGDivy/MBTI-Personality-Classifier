@@ -1,6 +1,23 @@
 # MBTI-Personality-Classifier
-A model trained using NLTK tool kit. It is trained from a dataset from kaggle where the MBTI personality types have been linked to their social media posting. This uses your social media status to predict your MBTI personality type.
 
-The dataset was taken from Kaggle. https://www.kaggle.com/datasnaek/mbti-type
+This project uses Natural Language processing to classify a person's personality based on their social media posts.
 
-Here is my solution to the dataset. https://www.kaggle.com/tgdivy/mbti-personality-classifier
+For additional information please checkout the presention pdf, or ppt file in the repository.
+
+MBTI persnality classifies a person's personality into 4 broad categories, namely:
+  * Extroversion and Introversion
+  * Sensing and Intuition
+  * Thinking and Feeling
+  * Judging and Perceiving
+
+The data was imported from Kaggle: https://www.kaggle.com/datasnaek/mbti-type
+
+The tokenization was done using NLTK toolk, and the model was based on Bayesian Model in Natural Language processing.
+
+For this particular problem, i trained 4 separte models each one predicted one of the attributes. The final output is based on percentage certainty the model has. Unfortunately, some of the personality types had a lot more data, and so the model often fails to classify a personality with the lower end.
+
+Despite that, the model has an accuracy of 80% on train:test split of 80:20 for each of the attributes.
+
+Hopefully, in future I will try with a bigger dataset, maybe try to extract data from Reddit posts.
+
+Here is my solution to the dataset on Kaggle: https://www.kaggle.com/tgdivy/mbti-personality-classifier
