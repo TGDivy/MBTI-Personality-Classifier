@@ -2,7 +2,7 @@
 
 This project uses Natural Language processing to classify a person's personality based on their social media posts.
 
-For additional information please checkout the presention pdf, or ppt file in the repository.
+For additional information please checkout the [presentation pdf](https://github.com/TGDivy/MBTI-Personality-Classifier/blob/master/Project%20Presentation.pdf), or ppt file in the repository. 
 
 MBTI persnality classifies a person's personality into 4 broad categories, namely:
   * Extroversion and Introversion
