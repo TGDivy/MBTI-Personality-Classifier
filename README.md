@@ -21,3 +21,5 @@ Despite that, the model has an accuracy of 80% on train:test split of 80:20 for 
 Hopefully, in future I will try with a bigger dataset, maybe try to extract data from Reddit posts.
 
 Here is my solution to the dataset on Kaggle: https://www.kaggle.com/tgdivy/mbti-personality-classifier
+
+**Note:** The files have been reogranised, so you may have to change the output directories when you run the code.
