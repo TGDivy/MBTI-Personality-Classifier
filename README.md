@@ -15,7 +15,7 @@ The data was imported from Kaggle: https://www.kaggle.com/datasnaek/mbti-type
 The tokenization was done using NLTK toolk, and the model was based on Bayesian Model in Natural Language processing.
 
 For this particular problem, i trained 4 separte models each one predicted one of the attributes. The final output is based on percentage certainty the model has. 
-![Divy Bramhecha Personality Type by the classifier when feed in quora answers](https://github.com/TGDivy/MBTI-Personality-Classifier/blob/master/Output%20Graphs%20and%20Predictions/Divy.png?raw=true)
+![Divy Bramhecha Personality Type by the classifier when feed in quora answers](Output%20Graphs%20and%20Predictions/Divy.png)
 (Output using matplotlib)
 This worked quite well in classifying my personality type, It's INTJ, although you can see that the F:J is 55:45 which is quite close. Unfortunately, some of the personality types had a lot more data, and so the model often fails to classify a personality with the lower end.
 
